@@ -6,8 +6,8 @@ using UnityEngine;
 public class ServerClientRPC : NetworkBehaviour
 {
     [ServerRpc]
-    private void ServerCallDoSomething() { }
+    private void ServerCallDoSomethingServerRpc() { }
 
     [ClientRpc]
-    private void ClientCallDoSomething() { }
+    private void ClientCallDoSomethingClientRpc() { }
 }
